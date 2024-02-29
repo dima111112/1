@@ -69,6 +69,7 @@ nav hr {
   padding: 15px 0;
   margin: 0 15px;
   display: flex;
+  margin-bottom: 5px;
   transition: background-color 0.1s ease-in-out;
 }
 .menu-btn img {
