@@ -4,11 +4,8 @@
 .edit-profile {
   width: auto;
   height: auto;
-  padding: 70px 30px 20px 20px;
+  padding: 0px 20px 20px 20px;
 }
-/* .user {
-  width: calc(100%-5px);
-} */
 .user-form input,
 textarea {
   outline: none;

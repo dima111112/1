@@ -5,8 +5,6 @@ body {
   background-color: #eee;
   margin-right: 15px;
   padding: 0;
-  /* width: 1000px; */
-  /* height: 100vh; */
 }
 .container {
   display: grid;
@@ -46,7 +44,6 @@ footer {
 nav {
   grid-area: aside;
   width: 180px;
-  /* height: 100%; */
   background-color: #f7f7f7;
   border-right: 2px solid rgba(0, 0, 0, 0.3);
   position: fixed;
@@ -148,14 +145,10 @@ nav hr {
   margin: 50px 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* grid-template-columns: 280px 280px 280px; */
 }
 
 .card-grahpics {
-  /* width: auto; */
-  height: auto;
   padding: 2px 10px 5px 10px;
-  /* position: relative; */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -165,7 +158,6 @@ nav hr {
   justify-content: center;
   align-items: center;
   padding: 5px;
-  width: 95%;
   position: relative;
   top: -15px;
 }
@@ -183,10 +175,6 @@ p {
   grid-template-columns: 1fr 1fr;
 }
 .table-check {
-  width: auto;
-  height: auto;
-  position: relative;
-  padding-top: 50px;
   font-size: 0.9rem;
 }
 table {
@@ -204,9 +192,8 @@ table {
 }
 
 .tasks {
-  position: absolute;
-  top: -15px;
-  width: 95%;
+  position: relative;
+  top: -25px;
 }
 .list-tasks {
   display: flex;
@@ -230,12 +217,10 @@ table {
 .tasks.blue,
 .tasks.pink {
   color: #f3f3f3;
+  padding: 5px;
 }
 .table-info {
   margin: 10px;
-}
-.table-stats {
-  margin-top: 10px;
 }
 .table-stats th {
   color: rgb(64, 160, 162);
@@ -277,7 +262,6 @@ table {
 @media (max-width: 1000px) {
   .cards {
     grid-template-columns: 1fr 1fr;
-    /* grid-template-columns: 295px 295px; */
     gap: 50px 0px;
   }
   .card {
@@ -285,12 +269,10 @@ table {
   }
   .grahpics {
     grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-columns: 185px 185px 185px; */
     gap: 10px;
   }
   .card-grahpics {
     width: auto;
-    /* height: auto; */
   }
   .card-table {
     grid-template-columns: 1fr;
@@ -323,7 +305,6 @@ table {
     gap: 50px 0px;
   }
   .card {
-    /* width: auto; */
     height: auto;
   }
   .grahpics {
